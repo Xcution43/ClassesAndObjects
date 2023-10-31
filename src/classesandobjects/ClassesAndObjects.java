@@ -4,6 +4,8 @@
  */
 package classesandobjects;
 
+import shapes.Rectangle;
+import shapes.Shape;
 import shapes.Triangle;
 
 /**
@@ -47,6 +49,17 @@ public class ClassesAndObjects {
         
         Person tim = new Person();
         tim.favTriangle = tri5;
+       
+        //Because of the Rectangle class is in different package you have to import it
+        Rectangle rect1 = new Rectangle();
+        
+        //Here we tried to get getArea and printed it to the console wich is 31.0
+        rect1.getArea();
+        System.out.println(rect1.getArea());
+        //Shape shape1 = new Shape();
+        
+        System.out.println(rect1.getColour());
+        System.out.println(tri1.getColour());
     }
     
 }

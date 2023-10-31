@@ -8,7 +8,7 @@ package shapes;
  *
  * @author moogi
  */
-public class Triangle {
+public class Triangle extends Shape {
     // Here is the easy way by using class 
     private int side1;
     private int side2;
@@ -19,7 +19,12 @@ public class Triangle {
     }
 
     public void setSide1(int side1) {
-        this.side1 = side1;
+        if (side1 > 0) {
+            this.side1 = side1;
+        } else {
+            System.out.println("Cannot set side1 of a triange to be non-positive");
+        }
+        
     }
 
     public int getSide2() {
