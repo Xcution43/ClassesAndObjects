@@ -4,10 +4,21 @@
  */
 package classesandobjects;
 
+import shapes.Triangle;
+
 /**
  *
  * @author moogi
  */
-public class Triangle {
+public class Person {
+    
+    int age;
+    double height;
+    String eyeColor;
+    String hairColor;
+    boolean isProgrammer = true;
+    Triangle favTriangle;
+    
+    
     
 }
