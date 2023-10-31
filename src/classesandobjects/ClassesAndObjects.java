@@ -15,6 +15,7 @@ public class ClassesAndObjects {
      */
     public static void main(String[] args) {
         //Note that this is harder way to doing this
+        //Note = array = used to store multiple values in a single variable
         
         Triangle tri1 = new Triangle ();
         Triangle tri2 = new Triangle ();
